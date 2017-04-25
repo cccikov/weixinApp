@@ -1,0 +1,3 @@
+<view class="classname">{{text}}</view>
+<view class="classname">{{name}}的页面</view>
+<view bindtap="viewTap"> click me </view>
