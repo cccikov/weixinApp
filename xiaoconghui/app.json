@@ -1,23 +1,43 @@
 {
     "pages": [
-        "pages/index/index",
-        "pages/logs/logs",
-        "pages/test/test"
+        "pages/home/home",
+        "pages/me/me",
+        "pages/test/test",
+        "pages/logs/logs"
     ],
     "window": {
-        "backgroundTextStyle": "light",
+        "backgroundTextStyle":"light",
+        "backgroundColor":"#fff",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "WeChat",
-        "navigationBarTextStyle": "black"
+        "navigationBarTitleText": "小聪慧",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh":"false"
     },
-    "tabBar": {
-        "list":[{
-            "pagePath":"pages/index/index",
-            "text":"home"
-        },{
-            "pagePath":"pages/test/test",
-            "text":"test"
-        }
+    "tabBar":{
+        "color":"#757575",
+        "selectedColor":"#d81e06",
+        "position":"bottom",
+        "backgroundColor":"#fcfcfc",
+        "borderStyle":"black",
+        "list":[
+            {
+                "text":"主页",
+                "pagePath":"pages/home/home",
+                "iconPath":"img/home.png",
+                "selectedIconPath":"img/home_active.png"
+            },{
+                "text":"我的",
+                "pagePath":"pages/me/me",
+                "iconPath":"img/me.png",
+                "selectedIconPath":"img/me_active.png"
+            }
         ]
-    }
+    },
+    "networkTimeout":{
+        "request":60000,
+        "connectSocket":60000,
+        "uploadFile":60000,
+        "downloadFile":60000
+    },
+    "debug":true
 }
