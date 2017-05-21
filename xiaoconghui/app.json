@@ -9,7 +9,7 @@
         "backgroundTextStyle":"light",
         "backgroundColor":"#fff",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "小聪慧",
+        "navigationBarTitleText": "Little Smart",
         "navigationBarTextStyle": "black",
         "enablePullDownRefresh":"false"
     },
